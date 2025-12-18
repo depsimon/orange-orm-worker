@@ -1,0 +1,17 @@
+{
+    "name": "orange-orm-worker",
+    "type": "module",
+    "scripts": {
+        "cf-typegen": "wrangler types --env-interface CloudflareBindings --env dev",
+        "dev": "wrangler dev --env dev"
+    },
+    "dependencies": {
+        "orange-orm": "^4.7.16",
+        "pg": "^8.16.3"
+    },
+    "devDependencies": {
+        "@types/node": "^25.0.3",
+        "@types/pg": "^8.16.0",
+        "wrangler": "^4.55.0"
+    }
+}
